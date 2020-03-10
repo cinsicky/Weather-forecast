@@ -1,0 +1,179 @@
+.bg {
+	background: url("../images/bg.png");
+	background-position: center 0;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-o-background-size: cover;
+	-moz-background-size: cover;
+	-ms-background-size: cover;
+}
+.topTitle{
+	margin-top: 50px;
+	margin-bottom: 50px;
+	text-align: center;
+}
+.weekTitle{
+	font-size: 37px;
+    color: white;
+    margin: -7px auto;
+}
+
+.dateTitle{
+	font-size: 19px;
+    color: rgba(255,255,255,0.8);
+    margin: 5px auto;
+}
+
+.cityTitle{
+	font-size: 60px;
+    color: white;
+}
+
+.weather{
+    color: white;
+    margin: -31px auto;
+    text-align: center;
+    font-size: 19px;
+}
+
+.changeBtn{
+	margin-left:10px;
+}
+
+.currentWeather{
+	margin-bottom: 80px;
+}
+
+.btn-danger {
+    color: white;
+    background-color: #618aee;
+    border-color: #618aee;
+    }
+    
+    
+ .dropdown-menu{
+    background-color: rgba(255,255,255,0.2);
+    border: 1px solid rgba(255,255,255,0.2);
+}
+
+.dropdown-item{
+	color: white;
+}
+
+.btn-danger:hover {
+    color: #fff;
+    background-color: #2e4378;
+    border-color: #2e4378;
+}
+
+.btn-danger:not(:disabled):not(.disabled).active, .btn-danger:not(:disabled):not(.disabled):active, .show>.btn-danger.dropdown-toggle {
+    color: #fff;
+    background-color: #2e4378;
+    border-color: #2e4378;
+}
+
+danger:not(:disabled):not(.disabled).active:focus, .btn-danger:not(:disabled):not(.disabled):active:focus, .show>.btn-danger.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.2rem rgba(46,67,120,.5);
+}
+.tem-title{
+	font-size: 60px;
+    color: white;
+    text-align:center;vertical-align: middle;
+    margin: auto auto;
+    font-weight: 200;
+}
+
+.tem-detail {
+  vertical-align: middle;
+  margin-top:40px; 
+}
+
+.weekSubtitle{
+	color: white;
+    margin: -3px auto;
+    text-align: center;
+    font-size: 22px;
+}
+
+.dateSubtitle{
+	font-size: 17px;
+    text-align: center;
+    color: rgba(255,255,255,0.8);
+    margin: 4px;
+}
+
+.icon{
+	width: 200px;
+	margin: 0 auto;
+	display: block;
+
+}
+
+.item {
+	max-width: 150px;
+	margin: 0 auto;
+	display: block;
+}
+
+.forecast{
+	margin-top: 115px;
+}
+
+h1{
+	color: white;
+	text-align: center;
+	margin: 40px;
+}
+
+h4{
+	color: white;
+	margin: 10px auto;
+	text-align: center;
+}
+h5{
+	color: white;
+	margin: 5px auto;
+	text-align: center;
+}
+
+p{
+	color: white;
+	text-align: center;
+	margin: 10px auto;
+}
+.subtitle{
+	color: white;
+	text-align: center;
+	margin: 10px auto;
+}
+
+@media only screen and (min-width:320px) and (max-width:900px){
+.cityTitle {
+    font-size: 40px;
+}
+
+.weekTitle {
+    font-size: 25px;
+}
+.dateTitle{
+	font-size: 15px;
+}
+.icon {
+    width: 161px;
+    margin: -38px auto;
+}
+.weather{
+	font-size: 16px;
+}
+
+.tem-title {
+    font-size: 55px;
+}
+
+.forecast {
+    margin-top: 41px;
+}
+
+}
